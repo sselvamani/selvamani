@@ -1,7 +1,7 @@
 baseURL = "https://selvamani.in/"
 languageCode = "en-us"
-title = "Selvamani"
-theme = "charaka"
+title = "Selvamani S"
+theme = "charaka-hugo-theme"
 
 [params]
   author = "Selvamani"
