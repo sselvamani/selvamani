@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+<section class="hero">
+  <h1>Selvamani S</h1>
+  <p class="hero-tagline">Infrastructure • Resilience • Hybrid Cloud</p>
+
+  <p class="hero-summary">
+    Senior infrastructure professional focused on datacenter modernization,
+    hybrid cloud platforms, resilience engineering, and practical cost discipline
+    in enterprise and GCC environments.
+  </p>
+
+  <div class="hero-points">
+    <span>Datacenter Modernization</span>
+    <span>Hybrid Cloud</span>
+    <span>Resilience Engineering</span>
+    <span>FinOps Thinking</span>
+  </div>
+
+  <div class="hero-actions">
+    <a href="/about/">About</a>
+    <a href="/posts/">Posts</a>
+    <a href="https://www.linkedin.com/in/sselvamani/" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</section>
+
+<section class="recent-posts">
+  <h2>Recent Writing</h2>
+
+  {{ $pages := where site.RegularPages "Section" "posts" }}
+  {{ range first 5 $pages }}
+    <article class="post-card">
+      <div class="post-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      {{ with .Summary }}
+        <p>{{ . }}</p>
+      {{ end }}
+    </article>
+  {{ end }}
+</section>
+
+{{ end }}
