@@ -11,6 +11,10 @@ preserveTaxonomyNames = true
   showFooter = true
   showShareButtons = true
 
+[[params.social]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/sselvamani/"
+
 [menu]
 
   [[menu.main]]
