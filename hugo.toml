@@ -2,6 +2,8 @@ baseURL = "https://selvamani.in/"
 languageCode = "en-us"
 title = "Selvamani S"
 theme = "charaka-hugo-theme"
+relativeURLs = true
+preserveTaxonomyNames = true
 
 [params]
   author = "Selvamani"
