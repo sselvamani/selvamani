@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Selvamani S</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Selvamani S</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Mar 2026 09:17:14 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Wed, 18 Mar 2026 09:17:14 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>What resilience actually means in infrastructure</title>
+      <link>http://localhost:1313/posts/resilience-in-infrastructure/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/resilience-in-infrastructure/</guid>
+      <description>&lt;p&gt;Resilience is not about uptime percentage.&lt;/p&gt;&#xA;&lt;p&gt;It is about how systems behave under failure.&lt;/p&gt;&#xA;&lt;p&gt;True resilience includes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;fault isolation&lt;/li&gt;&#xA;&lt;li&gt;graceful degradation&lt;/li&gt;&#xA;&lt;li&gt;fast recovery paths&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Why datacenter modernization fails in many organizations</title>
+      <link>http://localhost:1313/posts/datacenter-modernization/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/datacenter-modernization/</guid>
+      <description>&lt;p&gt;Modernization is often treated as a migration problem.&lt;/p&gt;&#xA;&lt;p&gt;But the real challenge is architecture redesign.&lt;/p&gt;&#xA;&lt;p&gt;Without:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;workload understanding&lt;/li&gt;&#xA;&lt;li&gt;dependency mapping&lt;/li&gt;&#xA;&lt;li&gt;cost modelling&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Most modernization efforts create new problems.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
