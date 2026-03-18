@@ -1,0 +1,32 @@
+baseURL = "https://selvamani.in/"
+languageCode = "en-us"
+title = "Selvamani S"
+theme = "charaka-hugo-theme"
+
+[params]
+  author = "Selvamani"
+  description = "Infrastructure | Resilience | Hybrid Cloud"
+  showFooter = true
+  showShareButtons = true
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 4
